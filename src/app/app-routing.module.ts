@@ -17,7 +17,8 @@ const routes: Routes = [
   { path: 'page5', loadChildren: './page5/page5.module#Page5PageModule' },
   { path: 'qsomos', loadChildren: './qsomos/qsomos.module#QsomosPageModule' },
   { path: 'details/:id', loadChildren: './pages/todo-details/todo-details.module#TodoDetailsPageModule' },
-  { path: 'details', loadChildren: './pages/todo-details/todo-details.module#TodoDetailsPageModule' }
+  { path: 'details', loadChildren: './pages/todo-details/todo-details.module#TodoDetailsPageModule' },
+  { path: 'comentar', loadChildren: './comentar/comentar.module#ComentarPageModule' }
 ];
 
 @NgModule({
