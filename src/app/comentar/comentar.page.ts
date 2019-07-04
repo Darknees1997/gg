@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TaskI } from '../models/task.interface';
+import { TodoService } from '../services/todo.service';
 
 @Component({
   selector: 'app-comentar',
