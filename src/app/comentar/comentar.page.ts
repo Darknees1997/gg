@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TaskI } from '../models/task.interface';
 
 @Component({
   selector: 'app-comentar',
