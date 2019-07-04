@@ -12,6 +12,9 @@ export class ComentarPage implements OnInit {
   constructor(private todoService:TodoService) { }
 
   ngOnInit() {
+    this.todoService.getTodos().subscribe(res =>{
+       console.log('Tareas', res);
+    })
   }
 
 }
