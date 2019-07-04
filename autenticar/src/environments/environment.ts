@@ -4,14 +4,14 @@
 
 export const environment = {
   production: false,
-  firebase : {
-    apiKey: "AIzaSyCF1bUmyHD0yYZTTkZy7Eu4tgvFOxTCQnI",
-    authDomain: "noticias-7ab88.firebaseapp.com",
-    databaseURL: "https://noticias-7ab88.firebaseio.com",
-    projectId: "noticias-7ab88",
-    storageBucket: "noticias-7ab88.appspot.com",
-    messagingSenderId: "298771203570",
-    appId: "1:298771203570:web:4da654aac8f34b89"
+  firebaseConfig : {
+    apiKey: "AIzaSyDtmHHtZ0Yi-Ztp8_3-oKOt5a6GltarywA",
+    authDomain: "vjuegos-61114.firebaseapp.com",
+    databaseURL: "https://vjuegos-61114.firebaseio.com",
+    projectId: "vjuegos-61114",
+    storageBucket: "vjuegos-61114.appspot.com",
+    messagingSenderId: "945880931278",
+    appId: "1:945880931278:web:a9632a834b09cb2f"
   }
 
 };
