@@ -7,6 +7,18 @@
 </ion-header>
 
 <ion-content padding>
+    <ion-list>
+        <ion-item *ngIf="todo">
+          <ion-label position="stacked">Nombre</ion-label>
+          <ion-input required type="text" [(ngModel)]='todo.task'></ion-input>
+        </ion-item>
+    
+        <ion-item *ngIf="todo">
+          <ion-label position="stacked">Comentario</ion-label>
+          <ion-input required type="text" [(ngModel)]='todo.priority'></ion-input>
+        </ion-item>
+        <ion-button (click)="saveTodo()">Comentar</ion-button>
+      </ion-list>
   <ion-list>
     <ion-item-sliding *ngFor="let todo of todos">
       <ion-item lines="inset" button[routerLink]="['/details', todo.id]">
