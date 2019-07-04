@@ -8,6 +8,9 @@ import { TaskI } from '../models/task.interface';
   providedIn: 'root'
 })
 export class TodoService {
+  private todosCollection: AngularFirestoreCollection<TaskI>;
+  private todos: Observable<TaskI[]>;
+  
 
   constructor() { }
 }
