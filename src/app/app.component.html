@@ -1,0 +1,58 @@
+<ion-app>
+  <ion-menu side="start" menuId="first" contentId="principal" mode="ios"> 
+    <ion-header>
+      <ion-toolbar color="success">
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      
+      <ion-label color="dark">
+        Categorias
+      </ion-label>
+      <ion-list mode="ios">
+          <ion-menu-toggle>
+        <ion-item (click)="lol()">
+          <ion-label color="dark">
+          <ion-icon color ="dark" name="laptop"></ion-icon>
+            Lol
+          </ion-label>
+        </ion-item>
+        <ion-item (click)="mk()">
+          <ion-label color="dark">
+         <ion-icon color ="dark" name="logo-freebsd-devil"></ion-icon>
+            Mortal Kombat
+          </ion-label>
+        </ion-item>
+        <ion-item (click)="ff()">
+          <ion-label color="dark">
+       <ion-icon color ="dark" name="football"></ion-icon>
+            Fifa 2020
+          </ion-label>
+        </ion-item>
+        <ion-item (click)="ps5()">
+          <ion-label color="dark">
+      <ion-icon color ="dark" name="logo-playstation"></ion-icon>
+            PlayStation 5
+          </ion-label>
+        </ion-item>
+        <ion-item (click)="jf()">
+          <ion-label color="dark">
+      <ion-icon color ="dark" name="logo-freebsd-devil"></ion-icon>
+            Jump Force
+          </ion-label>
+        </ion-item>
+        <ion-item href="qsomos">
+            <ion-label color="dark">
+        <ion-icon color ="dark" name="logo-freebsd-devil"></ion-icon>
+              Quien Soy
+            </ion-label>
+          </ion-item>
+        </ion-menu-toggle>   
+      </ion-list>
+     
+      
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="principal"></ion-router-outlet>
+</ion-app>

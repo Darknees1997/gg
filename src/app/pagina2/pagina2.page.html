@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+       <ion-button (click)="menu()">
+        <ion-icon slot="icon-only" name="menu"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>
+      VJuegos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+          <ion-card color="dark" (click)="lol()">
+              <ion-img src="https://www.hitsbook.com/media/shows/lol.jpg"></ion-img>
+              <ion-card-content>
+                League of legends
+              </ion-card-content>
+            </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card color="dark" (click)="mk()">
+            <ion-img src="https://www.cinepremiere.com.mx/wp-content/uploads/2019/04/mortalkombat11.jpg"></ion-img>
+            <ion-card-content>
+                Mortal Kombat
+            </ion-card-content>
+          </ion-card>
+    </ion-col>
+    </ion-row>
+    <ion-row>
+        <ion-col>
+            <ion-card color="dark" (click)="ff()">
+                <ion-img src="https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-20/global-assets/common/fifa20-grid-tile-requirements-16x9.png.adapt.crop16x9.431p.png"></ion-img>
+                <ion-card-content>
+                    Fifa 2020
+                </ion-card-content>
+              </ion-card>
+        </ion-col>
+      <ion-col>
+        <ion-card color="dark" (click)="ps5()">
+            <ion-img src="https://statics.vrutal.com/m/3a00/3a00b7c526eeeaa81164ea20c79ea9d3.jpg"></ion-img>
+            <ion-card-content>
+                Playstation 5
+            </ion-card-content>
+          </ion-card>
+    </ion-col>
+    </ion-row>
+    <ion-row>
+        <ion-col>
+            <ion-card color="dark" (click)="jf()">
+                <ion-img src="https://steamcdn-a.akamaihd.net/steam/apps/816020/header.jpg?t=1558994343"></ion-img>
+                <ion-card-content>
+                    Jump Force
+                </ion-card-content>
+              </ion-card>
+        </ion-col>
