@@ -13,7 +13,7 @@ export class ComentarPage implements OnInit {
 
   ngOnInit() {
     this.todoService.getTodos().subscribe(res =>{
-       console.log('Tareas', res);
+       this.todos = res;
     })
   }
 
