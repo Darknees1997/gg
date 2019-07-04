@@ -8,8 +8,8 @@ import { TodoService } from '../services/todo.service';
   styleUrls: ['./comentar.page.scss'],
 })
 export class ComentarPage implements OnInit {
-
-  constructor() { }
+  todos: TaskI[];
+  constructor(private todoService:TodoService) { }
 
   ngOnInit() {
   }
