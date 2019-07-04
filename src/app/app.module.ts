@@ -15,7 +15,10 @@ import { AngularFirestoreModule } from 'angularfire2/firestore';
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,
+  AngularFireModule.initializeApp(environment.firebaseConfig),
+  AngularFirestoreModule
+  ],
   providers: [
     StatusBar,
     SplashScreen,
